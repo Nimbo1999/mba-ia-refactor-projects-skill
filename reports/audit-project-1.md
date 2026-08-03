@@ -128,6 +128,7 @@ Total: 15 findings
 PHASE 3: REFACTORING COMPLETE
 ================================
 ## New Project Structure
+```
 code-smells-project/
 ├── .env                       # secrets locais (SECRET_KEY, ADMIN_TOKEN) — não versionado
 ├── .env.example               # template de variáveis de ambiente
@@ -156,6 +157,7 @@ code-smells-project/
 │   ├── auth.py                 # requer_autenticacao (protege /admin/reset-db)
 │   └── error_handler.py        # tratamento de erro centralizado, sem vazamento de stack trace
 └── requirements.txt            # + python-dotenv
+```
 
 ## Validation
   ✓ Application boots without errors

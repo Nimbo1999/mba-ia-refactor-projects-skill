@@ -106,6 +106,8 @@ Phase 2 complete. Proceed with refactoring (Phase 3)? [y/n]
 PHASE 3: REFACTORING COMPLETE
 ================================
 ## New Project Structure
+
+```
 task-manager-api/
 ├── app.py                          # entry point / composition root: carrega config, registra
 │                                    #   error handlers, CORS por env e blueprints
@@ -145,6 +147,7 @@ task-manager-api/
 ├── .env.example                    # template de variáveis de ambiente (SECRET_KEY, SMTP_*, ...)
 ├── .gitignore                      # adicionado: .env, *.db, __pycache__, .venv
 └── requirements.txt                # + pyjwt==2.9.0
+```
 
 ## Validation
   ✓ Application boots without errors (uv + venv Python 3.12, `python app.py`)
